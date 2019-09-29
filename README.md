@@ -266,7 +266,7 @@ exit
 ![QQ Cloud](https://www.bespinglobal.cn/wp-content/uploads/2019/02/腾讯云.png "Tencent Cloud")
 ![SB Ali](https://www.bespinglobal.cn/wp-content/uploads/2019/02/阿里云140x60.png "Ali Cloud SB")
 ![HuaWei Cloud](https://www.bespinglobal.cn/wp-content/uploads/2019/02/华为云.png "HuaWei Cloud")
-![AWS](https://www.bespinglobal.cn/wp-content/uploads/2019/02/aws-2.png)
+![AWS](https://www.bespinglobal.cn/wp-content/uploads/2019/02/aws-2.png "AWS")  
 
 ``` text 
 ### 图片
@@ -284,10 +284,10 @@ exit
 
 [1]: https://www.bespinglobal.cn/wp-content/uploads/2017/02/logo.png
 
-![redhat](..\RHLogo.svg)
+![redhat](.\RHLogo.svg)
 
 ``` text 
-![redhat](..\RHLogo.svg)
+![redhat](.\RHLogo.svg)
 ```
 
 ### 表格
@@ -342,7 +342,7 @@ Markdown 制作表格使用 `|` 来分隔不同的单元格，使用 `-` 来分�
 **支持的 HTML 元素**
 不在 Markdown 涵盖范围之内的标签, 都可以直接在文档里面用 HTML 撰写。
 
-目前支持的 HTML 元素有: <kbd> <b> <i> <em> <sup> <sub> <br>等 , 如：
+目前支持的 HTML 元素有: `<kbd> <b> <i> <em> <sup> <sub> <br>` 等 , 如：
 `使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑`
 
 使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑
@@ -375,6 +375,7 @@ _   下划线
 
 #### 公式
 当你需要在编辑器中插入数学公式时, 可以使用两个美元符 $$ 包裹 TeX 或 LaTeX 格式的数学公式来实现。提交后, 问答和文章页会根据需要加载 Mathjax 对数学公式进行渲染。如:
+
 $$
 \mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} 
 \mathbf{i} & \mathbf{j} & \mathbf{k} \\
