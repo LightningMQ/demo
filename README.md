@@ -366,37 +366,3 @@ _   下划线
 .   英文句点
 !   感叹号
 ```
-
-##### 示例
-
-```flow
-st=>start: Start:>https://www.azure.cn
-io=>inputoutput: verification
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-sub=>subroutine: Your Subroutine
-e=>end
-
-st->io->op->cond
-cond(yes)->e
-cond(no)->sub->io
-```
-##### 序列图
-
-###### 示例 1
-
-```seq
-Alice->Bob: Hello Bob, how are you?
-Note right of Bob: Bob thinks
-Bob-->Alice: I am good thanks!
-```
-
-####### 示例 2
-
-```seq
-Title: Here is a title
-A->B: Normal line
-B-->C: Dashed line
-C->>D: Open arrow
-D-->>A: Dashed open arrow
-```
