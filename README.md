@@ -267,6 +267,7 @@ exit
 ![SB Ali](https://www.bespinglobal.cn/wp-content/uploads/2019/02/阿里云140x60.png "Ali Cloud SB")
 ![HuaWei Cloud](https://www.bespinglobal.cn/wp-content/uploads/2019/02/华为云.png "HuaWei Cloud")
 ![AWS](https://www.bespinglobal.cn/wp-content/uploads/2019/02/aws-2.png "AWS")  
+![redhat](https://raw.githubusercontent.com/LightningMQ/demo/master/RHLogo.svg "local")  
 
 ``` text 
 ### 图片
