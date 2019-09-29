@@ -139,7 +139,7 @@ ___粗斜体文本___ `___粗斜体文本___`
 2. 第二项：
     - 第二项嵌套的第一个元素
     - 第二项嵌套的第二个元素
-```	
+```
 
 
 #### 区块
@@ -298,7 +298,7 @@ Markdown 制作表格使用 `|` 来分隔不同的单元格，使用 `-` 来分�
 |  ----  | ----  |
 | 单元格  | 单元格 |
 | 单元格  | 单元格 |
-```  
+```
 
 ##### 对齐方式
 
@@ -352,7 +352,7 @@ Markdown 使用了很多特殊符号来表示特定的意义, 如果需要显示
 
 
 ##### Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号:
-``` text
+​``` text
 \   反斜线
 `   反引号
 *   星号
@@ -365,4 +365,38 @@ _   下划线
 -   减号
 .   英文句点
 !   感叹号
+```
+
+##### 示例
+
+```flow
+st=>start: Start:>https://www.azure.cn
+io=>inputoutput: verification
+op=>operation: Your Operation
+cond=>condition: Yes or No?
+sub=>subroutine: Your Subroutine
+e=>end
+
+st->io->op->cond
+cond(yes)->e
+cond(no)->sub->io
+```
+##### 序列图
+
+###### 示例 1
+
+```seq
+Alice->Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob-->Alice: I am good thanks!
+```
+
+####### 示例 2
+
+```seq
+Title: Here is a title
+A->B: Normal line
+B-->C: Dashed line
+C->>D: Open arrow
+D-->>A: Dashed open arrow
 ```
