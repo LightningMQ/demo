@@ -275,6 +275,7 @@ exit
 ![SB Ali](https://www.bespinglobal.cn/wp-content/uploads/2019/02/阿里云140x60.png "Ali Cloud SB")
 ![HuaWei Cloud](https://www.bespinglobal.cn/wp-content/uploads/2019/02/华为云.png "HuaWei Cloud")
 ![AWS](https://www.bespinglobal.cn/wp-content/uploads/2019/02/aws-2.png)
+![redhat](https://raw.githubusercontent.com/LightningMQ/demo/master/RHLogo.svg "local")  
 ```
 
 #### 连接图片
@@ -283,12 +284,6 @@ exit
 然后在文档的结尾位变量赋值（网址）
 
 [1]: https://www.bespinglobal.cn/wp-content/uploads/2017/02/logo.png
-
-![redhat](.\RHLogo.svg)
-
-``` text 
-![redhat](.\RHLogo.svg)
-```
 
 ### 表格
 Markdown 制作表格使用 `|` 来分隔不同的单元格，使用 `-` 来分隔表头和其他行。
